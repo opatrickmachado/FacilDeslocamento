@@ -1,0 +1,60 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    width: 100%;
+    background-color: var(--black);
+    border-radius: 1em;
+    padding: 1em;
+}
+.clientTop{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.clientContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    ::-webkit-scrollbar {
+        width: 13px;
+        
+      }
+    
+      ::-webkit-scrollbar-track {
+        background: none;
+      }
+    
+      ::-webkit-scrollbar-thumb {
+        background-color: var(--red-900);
+        border-radius: 10px;
+        border: 3px solid var(--black);
+      }
+
+    .clientList{
+        overflow: auto;
+        height: 40vh;
+       
+        
+    }
+    
+    span{
+        font-size: 2em;
+        color: var(--white);
+        margin: 0 0 1em 0;
+    }
+    Button{
+        width: 95%;
+        height: 3em;
+        margin-bottom: .5em;
+        margin-right: .5em;
+        background-color: var(--dark-700);
+        border-radius: .5em;
+        border: none;
+        border-left: solid 8px var(--red-900);
+        color: var(--white);
+
+    }
+}

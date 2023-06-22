@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  
+}
+
+:root{
+
+  --white: #fff;
+  --black: #0c1424;
+
+  --dark-700: #1d1d2e;
+  --pink-100:#F897AF; 
+  --pink-500: #F44571;
+  
+  --grey: rgba(177, 179, 194, 0.14901960784313725);
+  --grey-50: rgb(245, 241, 241);
+  --grey-100: #726f6f;
+
+  --blue-100: #1bb0ce;
+  --blue-200: rgba(11, 143, 214, 0.193);
+  --blue-500:#0396FF;
+  --blue-900:#376DF7;
+  --blue-1000: rgb(31, 8, 236);
+  --blue-hover: rgba(1, 111, 255, 0.355);
+
+  --red-900:#ff3f4b;
+  --pink-600: #3B2667;
+}
+
+button{
+  cursor: pointer;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+body{
+  background-color: var(--dark-700);
+  font-family: "Raleway", arial, sans-serif;
+}
+
+body,input,textarea, select, button{
+  font: 400 1rem sans-serif;
+}
